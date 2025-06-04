@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Inicializa o slider
         showSlide(0);
-        setInterval(nextSlide, 5000);
+        setInterval(nextSlide, 10000);
     }
 
     // Newsletter Form

@@ -68,7 +68,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 80px;
 }
 
 .nav-links {
@@ -364,8 +364,21 @@ footer {
 }
 
 .auth-logo img {
-    height: 70px;
+    height: 150px;
     margin-bottom: 30px;
+  
+}
+/* Estilo para o logo fora do formulário */
+.auth-logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-logo-container img {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .auth-form {
